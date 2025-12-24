@@ -1,0 +1,17 @@
+:root {
+  --text: #111;
+  --background: #ffffff;
+  --accent: #2563eb;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: var(--background);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}

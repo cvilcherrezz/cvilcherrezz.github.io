@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-links a {
+  margin-left: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid #eee;
+  margin-top: 80px;
+}
