@@ -6,7 +6,7 @@
 
 /* PHOTO */
 .profile-photo img {
-  width: 200px;        /* 👈 change this to test size */
+  width: 100px;        
   height: auto;
   border-radius: 8px;
   object-fit: cover;
