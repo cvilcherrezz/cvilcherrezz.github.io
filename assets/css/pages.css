@@ -1,7 +1,18 @@
-h1 {
-  margin-bottom: 16px;
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
 }
 
-p {
-  line-height: 1.6;
+/* PHOTO */
+.profile-photo img {
+  width: 200px;        /* 👈 change this to test size */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* TEXT */
+.profile-text {
+  max-width: 600px;
 }

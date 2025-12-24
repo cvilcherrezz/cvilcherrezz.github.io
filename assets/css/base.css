@@ -1,12 +1,29 @@
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather'), local('Merriweather-Regular'),
+       url('../fonts/merriweather-v13-latin-regular.woff2') format('woff2'),
+       url('../fonts/merriweather-v13-latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../fonts/lato-v11-latin-regular.woff2') format('woff2'),
+       url('../fonts/lato-v11-latin-regular.woff') format('woff');
+}
+
 :root {
   --text: #111;
   --background: #ffffff;
-  --accent: #2563eb;
+  --accent: #05122da7;
 }
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: 'Merriweather', sans-serif;
   background: var(--background);
   color: var(--text);
 }
